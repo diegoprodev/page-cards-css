@@ -1,0 +1,206 @@
+
+
+html, body {
+    min-height: 100% ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* max-width: 960px; */
+    font-family: sans-serif;
+    background-image: url(img/bg-4.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-title {
+    margin-top: 50px;
+}
+
+.main-title h1{
+    width: 500px;
+    padding: 1px;
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px   black;
+    font-size: 40px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    border-bottom: 2px solid blue;
+}
+
+
+.descriction h3 {
+    width: 30%;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 3px 3px 3px  black;
+    box-shadow: 5px 1px 8px  rgb(255, 255, 255);
+    background-color: rgba(0,0,0,.4);
+    border-radius: 8px;
+    border-bottom: 2px solid blue;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 786px;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 20px auto 0;
+    background-color:rgba(0,0,0,.4);
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px rgb(238, 235, 235);
+}
+
+.cards {
+    width: 250px;
+    height: 150px;
+    /* background-color: rgba(0,0,0,.6); */
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* box-shadow: 2px -2px 6px  rgb(0, 0, 0); */
+
+}
+
+.cards img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    
+}
+
+.cards h5 {
+    font-size: 15px;
+    margin: 0;
+    padding: 4px;
+    background-color: rgba(0,0,0,.6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+/* A principio fiz dessa forma, abaixo não muito funcional. assim gastando muito mais linahs de codigo.*/
+
+/* .container {
+    width: 54%;
+    flex: 1;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 11px;
+    background-color: rgba(0,0,0,.4); 
+    box-shadow: 2px 1px 8px  rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+.cards-courses1 {
+    width: 220px;
+    height: 170px;
+    background-image: url(img/card_01.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards-courses2 {
+    width: 220px;
+    height: 170px;
+    background-image: url(img/card_02.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards-courses3 {
+    width: 220px;
+    height: 170px;
+    background-image: url(img/card_03.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.cards-courses4 {
+    width: 220px;
+    height: 170px;
+    background-image: url(img/card_04.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards-courses5 {
+    width: 220px;
+    height: 170px;
+    background-image: url(img/card_05.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards-courses6 {
+    width: 220px;
+    height: 170px;
+    background-image: url(img/card_01.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 8px;
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 20px;
+    color: azure;
+    margin-top: 132px;
+    background-color: rgba(0,0,0,.4); 
+    padding: 8px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px  black;
+} */
+
+footer {
+    border-bottom:1px solid blue ;/* border: 1px solid rgba(254, 254, 255 .3); */
+    border-radius:10px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 6px 2px 2px black;
+    box-shadow: 1px 1px 9px rgb(238, 235, 235);
+    width: fit-content;
+    font-size: 8px;
+    margin: 12px auto; 
+    
+    padding: 4px;
+    text-align: center;
+}
