@@ -20,7 +20,8 @@ body {
 }
 
 .main-title h1{
-    width: 500px;
+    background-color: rgba(0,0,0,.4);
+    width: fit-content;
     padding: 1px;
     color: white;
     margin-top: 70px;
@@ -31,7 +32,7 @@ body {
     text-shadow: 3px 3px 2px   black;
     font-size: 40px;
     letter-spacing: 2px;
-    border-radius: 8px;
+    border-radius: 10px;
     border-bottom: 2px solid blue;
 }
 
@@ -43,9 +44,9 @@ body {
     margin-top: 20px;
     margin-bottom: 15px;
     text-align: center;
-    text-shadow: 3px 3px 3px  black;
-    box-shadow: 5px 1px 8px  rgb(255, 255, 255);
-    background-color: rgba(0,0,0,.4);
+    text-shadow: 2px 2px 1px  black;
+    /* box-shadow: 5px 1px 8px  rgb(255, 255, 255); */
+    /* background-color: rgba(0,0,0,.4); */
     border-radius: 8px;
     border-bottom: 2px solid blue;
     letter-spacing: 1px;
@@ -79,7 +80,7 @@ body {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    display: block;
+    display: block; /* todda tag img é um elemento inline, ou seja, o browser dar espaço entre um elemnto e outro automaticamente, então para corrigir esse espaço, transformamos em elemento de bloco*/
     
 }
 
@@ -191,7 +192,7 @@ h5 {
 } */
 
 footer {
-    border-bottom:1px solid blue ;/* border: 1px solid rgba(254, 254, 255 .3); */
+    border-bottom:1px solid blue ;
     border-radius:10px;
     color: #fff;
     letter-spacing: 2px;
@@ -200,7 +201,6 @@ footer {
     width: fit-content;
     font-size: 8px;
     margin: 12px auto; 
-    
     padding: 4px;
     text-align: center;
 }
