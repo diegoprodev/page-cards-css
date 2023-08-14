@@ -196,8 +196,8 @@ footer {
     border-radius:10px;
     color: #fff;
     letter-spacing: 2px;
-    text-shadow: 6px 2px 2px black;
-    box-shadow: 1px 1px 9px rgb(238, 235, 235);
+    text-shadow: 3px 2px 2px black;
+    /* box-shadow: 1px 1px 9px rgb(238, 235, 235); */
     width: fit-content;
     font-size: 8px;
     margin: 12px auto; 
